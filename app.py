@@ -53,7 +53,7 @@ pinecone = Pinecone(
 # print(pinecone.describe_index(name="megactivo-index-1"))
 
 # Access the index through the Pinecone instance
-index = pinecone.Index(name="megactivo-index-1")
+index = pinecone.Index(name="megactivo-index-2")
 
 # get all friends
 @app.route("/", methods=["GET"])
